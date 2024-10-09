@@ -4,12 +4,12 @@
     <startEvent id="sid-8B6F3E19-AAD6-45E6-B06E-FF3199B5C4AF"></startEvent>
     <userTask id="sid-2AD4B50A-3BB0-421C-BDC5-294F2B1263F1" name="经理审批">
       <extensionElements>
-        <activiti:taskListener event="create" class="com.atguigu.auth.activiti.MyTaskListener"></activiti:taskListener>
+        <activiti:taskListener event="create" class="com.atyinhao.auth.activiti.MyTaskListener"></activiti:taskListener>
       </extensionElements>
     </userTask>
     <userTask id="sid-06C18061-66DF-46DA-8364-A871B88A1A2C" name="人事审批">
       <extensionElements>
-        <activiti:taskListener event="create" class="com.atguigu.auth.activiti.MyTaskListener"></activiti:taskListener>
+        <activiti:taskListener event="create" class="com.atyinhao.auth.activiti.MyTaskListener"></activiti:taskListener>
       </extensionElements>
     </userTask>
     <endEvent id="sid-B5F6A1ED-1854-40CA-9180-D2E8232EB1A6"></endEvent>

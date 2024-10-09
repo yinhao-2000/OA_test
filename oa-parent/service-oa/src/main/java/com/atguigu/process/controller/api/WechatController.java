@@ -1,11 +1,11 @@
-package com.atguigu.process.controller.api;
+package com.atyinhao.process.controller.api;
 
 import com.alibaba.fastjson.JSON;
-import com.atguigu.auth.service.SysUserService;
-import com.atguigu.common.jwt.JwtHelper;
-import com.atguigu.common.result.Result;
-import com.atguigu.model.system.SysUser;
-import com.atguigu.vo.wechat.BindPhoneVo;
+import com.atyinhao.auth.service.SysUserService;
+import com.atyinhao.common.jwt.JwtHelper;
+import com.atyinhao.common.result.Result;
+import com.atyinhao.model.system.SysUser;
+import com.atyinhao.vo.wechat.BindPhoneVo;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import me.chanjar.weixin.common.api.WxConsts;
 import me.chanjar.weixin.common.bean.WxOAuth2UserInfo;
@@ -40,13 +40,13 @@ public class WechatController {
         //buildAuthorizationUrl三个参数
         //第一个参数：授权路径，在哪个路径获取微信信息
         //第二个参数：固定值，授权类型 WxConsts.OAuth2Scope.SNSAPI_USERINFO
-        //第三个参数：授权成功之后，跳转路径  'guiguoa' 转换成  '#'
+        //第三个参数：授权成功之后，跳转路径  'yinhaooa' 转换成  '#'
         String redirectUrl = null;
         try {
             redirectUrl = wxMpService.getOAuth2Service()
                     .buildAuthorizationUrl(userInfoUrl,
                             WxConsts.OAuth2Scope.SNSAPI_USERINFO,
-                            URLEncoder.encode(returnUrl.replace("guiguoa", "#"),"utf-8"));
+                            URLEncoder.encode(returnUrl.replace("yinhaooa", "#"),"utf-8"));
         } catch (UnsupportedEncodingException e) {
             throw new RuntimeException(e);
         }

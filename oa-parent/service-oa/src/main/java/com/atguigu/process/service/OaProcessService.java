@@ -1,13 +1,13 @@
-package com.atguigu.process.service;
+package com.atyinhao.process.service;
 
-import com.atguigu.vo.process.ApprovalVo;
-import com.atguigu.vo.process.ProcessFormVo;
-import com.atguigu.vo.process.ProcessQueryVo;
-import com.atguigu.vo.process.ProcessVo;
+import com.atyinhao.vo.process.ApprovalVo;
+import com.atyinhao.vo.process.ProcessFormVo;
+import com.atyinhao.vo.process.ProcessQueryVo;
+import com.atyinhao.vo.process.ProcessVo;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.atguigu.model.process.Process;
+import com.atyinhao.model.process.Process;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
@@ -18,7 +18,7 @@ import java.util.Map;
  * 审批类型 服务类
  * </p>
  *
- * @author atguigu
+ * @author atyinhao
  * @since 2023-02-14
  */
 public interface OaProcessService extends IService<Process> {

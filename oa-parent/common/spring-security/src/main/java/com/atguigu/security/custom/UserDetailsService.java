@@ -1,4 +1,4 @@
-package com.atguigu.security.custom;
+package com.atyinhao.security.custom;
 
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

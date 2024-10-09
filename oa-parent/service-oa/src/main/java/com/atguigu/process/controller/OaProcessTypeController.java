@@ -1,9 +1,9 @@
-package com.atguigu.process.controller;
+package com.atyinhao.process.controller;
 
 
-import com.atguigu.common.result.Result;
-import com.atguigu.model.process.ProcessType;
-import com.atguigu.process.service.OaProcessTypeService;
+import com.atyinhao.common.result.Result;
+import com.atyinhao.model.process.ProcessType;
+import com.atyinhao.process.service.OaProcessTypeService;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import io.swagger.annotations.ApiOperation;
@@ -19,7 +19,7 @@ import java.util.List;
  * 审批类型 前端控制器
  * </p>
  *
- * @author atguigu
+ * @author atyinhao
  * @since 2023-02-14
  */
 @RestController

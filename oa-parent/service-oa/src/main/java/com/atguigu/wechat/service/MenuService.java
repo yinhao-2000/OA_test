@@ -1,7 +1,7 @@
-package com.atguigu.wechat.service;
+package com.atyinhao.wechat.service;
 
-import com.atguigu.model.wechat.Menu;
-import com.atguigu.vo.wechat.MenuVo;
+import com.atyinhao.model.wechat.Menu;
+import com.atyinhao.vo.wechat.MenuVo;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 import java.util.List;
@@ -11,7 +11,7 @@ import java.util.List;
  * 菜单 服务类
  * </p>
  *
- * @author atguigu
+ * @author atyinhao
  * @since 2023-02-16
  */
 public interface MenuService extends IService<Menu> {

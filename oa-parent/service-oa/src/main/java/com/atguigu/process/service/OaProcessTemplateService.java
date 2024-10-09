@@ -1,6 +1,6 @@
-package com.atguigu.process.service;
+package com.atyinhao.process.service;
 
-import com.atguigu.model.process.ProcessTemplate;
+import com.atyinhao.model.process.ProcessTemplate;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.IService;
@@ -10,7 +10,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * 审批模板 服务类
  * </p>
  *
- * @author atguigu
+ * @author atyinhao
  * @since 2023-02-14
  */
 public interface OaProcessTemplateService extends IService<ProcessTemplate> {

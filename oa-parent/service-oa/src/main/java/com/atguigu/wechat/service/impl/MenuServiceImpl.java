@@ -1,11 +1,11 @@
-package com.atguigu.wechat.service.impl;
+package com.atyinhao.wechat.service.impl;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import com.atguigu.model.wechat.Menu;
-import com.atguigu.vo.wechat.MenuVo;
-import com.atguigu.wechat.mapper.MenuMapper;
-import com.atguigu.wechat.service.MenuService;
+import com.atyinhao.model.wechat.Menu;
+import com.atyinhao.vo.wechat.MenuVo;
+import com.atyinhao.wechat.mapper.MenuMapper;
+import com.atyinhao.wechat.service.MenuService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import me.chanjar.weixin.common.error.WxErrorException;
 import me.chanjar.weixin.mp.api.WxMpService;
@@ -23,7 +23,7 @@ import java.util.stream.Collectors;
  * 菜单 服务实现类
  * </p>
  *
- * @author atguigu
+ * @author atyinhao
  * @since 2023-02-16
  */
 @Service

@@ -1,12 +1,12 @@
-package com.atguigu.auth.service.impl;
+package com.atyinhao.auth.service.impl;
 
-import com.atguigu.auth.service.SysMenuService;
-import com.atguigu.auth.service.SysUserService;
-import com.atguigu.common.result.Result;
-import com.atguigu.model.system.SysUser;
-import com.atguigu.security.custom.CustomUser;
+import com.atyinhao.auth.service.SysMenuService;
+import com.atyinhao.auth.service.SysUserService;
+import com.atyinhao.common.result.Result;
+import com.atyinhao.model.system.SysUser;
+import com.atyinhao.security.custom.CustomUser;
 
-import com.atguigu.security.custom.UserDetailsService;
+import com.atyinhao.security.custom.UserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

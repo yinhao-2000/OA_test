@@ -1,4 +1,4 @@
-package com.atguigu.auth.activiti;
+package com.atyinhao.auth.activiti;
 
 import org.activiti.engine.HistoryService;
 import org.activiti.engine.RepositoryService;

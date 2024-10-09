@@ -1,11 +1,11 @@
-package com.atguigu.process.service.impl;
+package com.atyinhao.process.service.impl;
 
-import com.atguigu.auth.service.SysUserService;
-import com.atguigu.model.process.ProcessRecord;
-import com.atguigu.model.system.SysUser;
-import com.atguigu.process.mapper.OaProcessRecordMapper;
-import com.atguigu.process.service.OaProcessRecordService;
-import com.atguigu.security.custom.LoginUserInfoHelper;
+import com.atyinhao.auth.service.SysUserService;
+import com.atyinhao.model.process.ProcessRecord;
+import com.atyinhao.model.system.SysUser;
+import com.atyinhao.process.mapper.OaProcessRecordMapper;
+import com.atyinhao.process.service.OaProcessRecordService;
+import com.atyinhao.security.custom.LoginUserInfoHelper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -15,7 +15,7 @@ import org.springframework.stereotype.Service;
  * 审批记录 服务实现类
  * </p>
  *
- * @author atguigu
+ * @author atyinhao
  * @since 2023-02-15
  */
 @Service

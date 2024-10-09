@@ -1,11 +1,11 @@
-package com.atguigu.security.filter;
+package com.atyinhao.security.filter;
 
 import com.alibaba.fastjson.JSON;
-import com.atguigu.common.jwt.JwtHelper;
-import com.atguigu.common.result.ResponseUtil;
-import com.atguigu.common.result.Result;
-import com.atguigu.common.result.ResultCodeEnum;
-import com.atguigu.security.custom.LoginUserInfoHelper;
+import com.atyinhao.common.jwt.JwtHelper;
+import com.atyinhao.common.result.ResponseUtil;
+import com.atyinhao.common.result.Result;
+import com.atyinhao.common.result.ResultCodeEnum;
+import com.atyinhao.security.custom.LoginUserInfoHelper;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

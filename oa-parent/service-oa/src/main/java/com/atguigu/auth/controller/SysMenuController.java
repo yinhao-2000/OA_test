@@ -1,10 +1,10 @@
-package com.atguigu.auth.controller;
+package com.atyinhao.auth.controller;
 
 
-import com.atguigu.auth.service.SysMenuService;
-import com.atguigu.common.result.Result;
-import com.atguigu.model.system.SysMenu;
-import com.atguigu.vo.system.AssginMenuVo;
+import com.atyinhao.auth.service.SysMenuService;
+import com.atyinhao.common.result.Result;
+import com.atyinhao.model.system.SysMenu;
+import com.atyinhao.vo.system.AssginMenuVo;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +17,7 @@ import java.util.List;
  * 菜单表 前端控制器
  * </p>
  *
- * @author atguigu
+ * @author atyinhao
  * @since 2023-02-02
  */
 @Api(tags = "菜单管理接口")

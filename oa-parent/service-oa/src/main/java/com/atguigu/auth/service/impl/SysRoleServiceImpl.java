@@ -1,11 +1,11 @@
-package com.atguigu.auth.service.impl;
+package com.atyinhao.auth.service.impl;
 
-import com.atguigu.auth.mapper.SysRoleMapper;
-import com.atguigu.auth.service.SysRoleService;
-import com.atguigu.auth.service.SysUserRoleService;
-import com.atguigu.model.system.SysRole;
-import com.atguigu.model.system.SysUserRole;
-import com.atguigu.vo.system.AssginRoleVo;
+import com.atyinhao.auth.mapper.SysRoleMapper;
+import com.atyinhao.auth.service.SysRoleService;
+import com.atyinhao.auth.service.SysUserRoleService;
+import com.atyinhao.model.system.SysRole;
+import com.atyinhao.model.system.SysUserRole;
+import com.atyinhao.vo.system.AssginRoleVo;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;

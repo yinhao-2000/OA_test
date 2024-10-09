@@ -1,6 +1,6 @@
-package com.atguigu.wechat.mapper;
+package com.atyinhao.wechat.mapper;
 
-import com.atguigu.model.wechat.Menu;
+import com.atyinhao.model.wechat.Menu;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * 菜单 Mapper 接口
  * </p>
  *
- * @author atguigu
+ * @author atyinhao
  * @since 2023-02-16
  */
 public interface MenuMapper extends BaseMapper<Menu> {

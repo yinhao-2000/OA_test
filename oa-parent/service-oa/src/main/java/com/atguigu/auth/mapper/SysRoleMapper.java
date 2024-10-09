@@ -1,6 +1,6 @@
-package com.atguigu.auth.mapper;
+package com.atyinhao.auth.mapper;
 
-import com.atguigu.model.system.SysRole;
+import com.atyinhao.model.system.SysRole;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.springframework.stereotype.Repository;
 

@@ -1,4 +1,4 @@
-package com.atguigu.wechat.config;
+package com.atyinhao.wechat.config;
 
 import me.chanjar.weixin.mp.api.WxMpService;
 import me.chanjar.weixin.mp.api.impl.WxMpServiceImpl;

@@ -1,22 +1,22 @@
-package com.atguigu.process.service.impl;
+package com.atyinhao.process.service.impl;
 
 import com.alibaba.fastjson2.JSON;
 import com.alibaba.fastjson2.JSONObject;
-import com.atguigu.auth.service.SysUserService;
-import com.atguigu.model.process.Process;
-import com.atguigu.model.process.ProcessRecord;
-import com.atguigu.model.process.ProcessTemplate;
-import com.atguigu.model.system.SysUser;
-import com.atguigu.process.mapper.OaProcessMapper;
-import com.atguigu.process.service.MessageService;
-import com.atguigu.process.service.OaProcessRecordService;
-import com.atguigu.process.service.OaProcessService;
-import com.atguigu.process.service.OaProcessTemplateService;
-import com.atguigu.security.custom.LoginUserInfoHelper;
-import com.atguigu.vo.process.ApprovalVo;
-import com.atguigu.vo.process.ProcessFormVo;
-import com.atguigu.vo.process.ProcessQueryVo;
-import com.atguigu.vo.process.ProcessVo;
+import com.atyinhao.auth.service.SysUserService;
+import com.atyinhao.model.process.Process;
+import com.atyinhao.model.process.ProcessRecord;
+import com.atyinhao.model.process.ProcessTemplate;
+import com.atyinhao.model.system.SysUser;
+import com.atyinhao.process.mapper.OaProcessMapper;
+import com.atyinhao.process.service.MessageService;
+import com.atyinhao.process.service.OaProcessRecordService;
+import com.atyinhao.process.service.OaProcessService;
+import com.atyinhao.process.service.OaProcessTemplateService;
+import com.atyinhao.security.custom.LoginUserInfoHelper;
+import com.atyinhao.vo.process.ApprovalVo;
+import com.atyinhao.vo.process.ProcessFormVo;
+import com.atyinhao.vo.process.ProcessQueryVo;
+import com.atyinhao.vo.process.ProcessVo;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
@@ -53,7 +53,7 @@ import org.activiti.editor.language.json.converter.BpmnJsonConverter;
  * 审批类型 服务实现类
  * </p>
  *
- * @author atguigu
+ * @author atyinhao
  * @since 2023-02-14
  */
 @Service

@@ -1,6 +1,6 @@
-package com.atguigu.auth.service;
+package com.atyinhao.auth.service;
 
-import com.atguigu.model.system.SysRoleMenu;
+import com.atyinhao.model.system.SysRoleMenu;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * 角色菜单 服务类
  * </p>
  *
- * @author atguigu
+ * @author atyinhao
  * @since 2023-02-02
  */
 public interface SysRoleMenuService extends IService<SysRoleMenu> {

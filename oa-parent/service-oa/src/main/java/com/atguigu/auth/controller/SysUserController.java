@@ -1,12 +1,12 @@
-package com.atguigu.auth.controller;
+package com.atyinhao.auth.controller;
 
 
-import com.atguigu.auth.service.SysUserService;
-import com.atguigu.common.result.Result;
-import com.atguigu.common.utils.MD5;
-import com.atguigu.model.system.SysUser;
-import com.atguigu.vo.system.AssginRoleVo;
-import com.atguigu.vo.system.SysUserQueryVo;
+import com.atyinhao.auth.service.SysUserService;
+import com.atyinhao.common.result.Result;
+import com.atyinhao.common.utils.MD5;
+import com.atyinhao.model.system.SysUser;
+import com.atyinhao.vo.system.AssginRoleVo;
+import com.atyinhao.vo.system.SysUserQueryVo;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.*;
  * 用户表 前端控制器
  * </p>
  *
- * @author atguigu
+ * @author atyinhao
  * @since 2023-02-02
  */
 @Api(tags = "用户管理接口")

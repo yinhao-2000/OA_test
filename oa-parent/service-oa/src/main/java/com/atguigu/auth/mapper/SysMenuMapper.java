@@ -1,6 +1,6 @@
-package com.atguigu.auth.mapper;
+package com.atyinhao.auth.mapper;
 
-import com.atguigu.model.system.SysMenu;
+import com.atyinhao.model.system.SysMenu;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
@@ -12,7 +12,7 @@ import java.util.List;
  * 菜单表 Mapper 接口
  * </p>
  *
- * @author atguigu
+ * @author atyinhao
  * @since 2023-02-02
  */
 @Mapper

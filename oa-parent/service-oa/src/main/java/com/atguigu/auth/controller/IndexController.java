@@ -1,14 +1,14 @@
-package com.atguigu.auth.controller;
+package com.atyinhao.auth.controller;
 
-import com.atguigu.auth.service.SysMenuService;
-import com.atguigu.auth.service.SysUserService;
-import com.atguigu.common.config.exception.GuiguException;
-import com.atguigu.common.jwt.JwtHelper;
-import com.atguigu.common.result.Result;
-import com.atguigu.common.utils.MD5;
-import com.atguigu.model.system.SysUser;
-import com.atguigu.vo.system.LoginVo;
-import com.atguigu.vo.system.RouterVo;
+import com.atyinhao.auth.service.SysMenuService;
+import com.atyinhao.auth.service.SysUserService;
+import com.atyinhao.common.config.exception.YinhaoException;
+import com.atyinhao.common.jwt.JwtHelper;
+import com.atyinhao.common.result.Result;
+import com.atyinhao.common.utils.MD5;
+import com.atyinhao.model.system.SysUser;
+import com.atyinhao.vo.system.LoginVo;
+import com.atyinhao.vo.system.RouterVo;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import io.swagger.annotations.Api;
 import org.activiti.engine.RepositoryService;
@@ -49,7 +49,7 @@ public class IndexController {
 
         //3 用户信息是否存在
         if(sysUser == null) {
-            throw new GuiguException(201,"用户不存在");
+            throw new YinhaoException(201,"用户不存在");
         }
 
         //4 判断密码
@@ -58,12 +58,12 @@ public class IndexController {
         //获取输入的密码
         String password_input = MD5.encrypt(loginVo.getPassword());
         if(!password_db.equals(password_input)) {
-            throw new GuiguException(201,"密码错误");
+            throw new YinhaoException(201,"密码错误");
         }
 
         //5 判断用户是否被禁用  1 可用 0 禁用
         if(sysUser.getStatus().intValue()==0) {
-            throw new GuiguException(201,"用户已经被禁用");
+            throw new YinhaoException(201,"用户已经被禁用");
         }
 
         //6 使用jwt根据用户id和用户名称生成token字符串

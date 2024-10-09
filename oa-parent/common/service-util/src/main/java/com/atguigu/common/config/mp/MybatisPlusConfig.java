@@ -1,4 +1,4 @@
-package com.atguigu.common.config.mp;
+package com.atyinhao.common.config.mp;
 
 import com.baomidou.mybatisplus.annotation.DbType;
 import com.baomidou.mybatisplus.autoconfigure.ConfigurationCustomizer;
@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@MapperScan(basePackages = {"com.atguigu.auth.mapper","com.atguigu.process.mapper","com.atguigu.wechat.mapper"})
+@MapperScan(basePackages = {"com.atyinhao.auth.mapper","com.atyinhao.process.mapper","com.atyinhao.wechat.mapper"})
 public class MybatisPlusConfig {
 
     /**

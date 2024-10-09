@@ -1,6 +1,6 @@
-package com.atguigu.model.system;
+package com.atyinhao.model.system;
 
-import com.atguigu.model.base.BaseEntity;
+import com.atyinhao.model.base.BaseEntity;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import io.swagger.annotations.ApiModel;

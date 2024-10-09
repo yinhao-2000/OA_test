@@ -1,6 +1,6 @@
 //
 //
-package com.atguigu.vo.system;
+package com.atyinhao.vo.system;
 
 import java.io.Serializable;
 

@@ -1,11 +1,11 @@
-package com.atguigu.process.controller;
+package com.atyinhao.process.controller;
 
 
-import com.atguigu.common.result.Result;
-import com.atguigu.model.process.Process;
-import com.atguigu.process.service.OaProcessService;
-import com.atguigu.vo.process.ProcessQueryVo;
-import com.atguigu.vo.process.ProcessVo;
+import com.atyinhao.common.result.Result;
+import com.atyinhao.model.process.Process;
+import com.atyinhao.process.service.OaProcessService;
+import com.atyinhao.vo.process.ProcessQueryVo;
+import com.atyinhao.vo.process.ProcessVo;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import io.swagger.annotations.ApiOperation;
@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
  * 审批类型 前端控制器
  * </p>
  *
- * @author atguigu
+ * @author atyinhao
  * @since 2023-02-14
  */
 @RestController

@@ -1,4 +1,4 @@
-package com.atguigu.security.custom;
+package com.atyinhao.security.custom;
 
 public class LoginUserInfoHelper {
 

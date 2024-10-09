@@ -10,8 +10,8 @@
         <version>2.3.6.RELEASE</version>
     </parent>
 
-    <groupId>com.atguigu</groupId>
-    <artifactId>guigu-oa-parent</artifactId>
+    <groupId>com.atyinhao</groupId>
+    <artifactId>yinhao-oa-parent</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>

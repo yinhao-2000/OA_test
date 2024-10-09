@@ -1,6 +1,6 @@
-package com.atguigu.auth.service;
+package com.atyinhao.auth.service;
 
-import com.atguigu.model.system.SysUserRole;
+import com.atyinhao.model.system.SysUserRole;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * 用户角色 服务类
  * </p>
  *
- * @author atguigu
+ * @author atyinhao
  * @since 2023-02-02
  */
 public interface SysUserRoleService extends IService<SysUserRole> {

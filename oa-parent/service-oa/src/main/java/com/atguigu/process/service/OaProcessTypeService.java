@@ -1,6 +1,6 @@
-package com.atguigu.process.service;
+package com.atyinhao.process.service;
 
-import com.atguigu.model.process.ProcessType;
+import com.atyinhao.model.process.ProcessType;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 import java.util.List;
@@ -10,7 +10,7 @@ import java.util.List;
  * 审批类型 服务类
  * </p>
  *
- * @author atguigu
+ * @author atyinhao
  * @since 2023-02-14
  */
 public interface OaProcessTypeService extends IService<ProcessType> {

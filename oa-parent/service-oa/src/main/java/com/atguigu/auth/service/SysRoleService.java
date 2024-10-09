@@ -1,7 +1,7 @@
-package com.atguigu.auth.service;
+package com.atyinhao.auth.service;
 
-import com.atguigu.model.system.SysRole;
-import com.atguigu.vo.system.AssginRoleVo;
+import com.atyinhao.model.system.SysRole;
+import com.atyinhao.vo.system.AssginRoleVo;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 import java.util.Map;

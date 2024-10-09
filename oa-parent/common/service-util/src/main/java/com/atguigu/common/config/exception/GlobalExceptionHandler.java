@@ -1,6 +1,6 @@
-package com.atguigu.common.config.exception;
+package com.atyinhao.common.config.exception;
 
-import com.atguigu.common.result.Result;
+import com.atyinhao.common.result.Result;
 import org.springframework.security.access.AccessDeniedException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -27,9 +27,9 @@ public class GlobalExceptionHandler {
     }
 
     //自定义异常处理
-    @ExceptionHandler(GuiguException.class)
+    @ExceptionHandler(YinhaoException.class)
     @ResponseBody
-    public Result error(GuiguException e) {
+    public Result error(YinhaoException e) {
         e.printStackTrace();
         return Result.fail().code(e.getCode()).message(e.getMsg());
     }

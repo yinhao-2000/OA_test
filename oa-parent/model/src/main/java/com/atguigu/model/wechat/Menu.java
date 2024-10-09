@@ -1,6 +1,6 @@
-package com.atguigu.model.wechat;
+package com.atyinhao.model.wechat;
 
-import com.atguigu.model.base.BaseEntity;
+import com.atyinhao.model.base.BaseEntity;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import io.swagger.annotations.ApiModel;

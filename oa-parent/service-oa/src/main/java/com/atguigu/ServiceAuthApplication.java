@@ -1,4 +1,4 @@
-package com.atguigu;
+package com.atyinhao;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

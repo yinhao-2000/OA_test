@@ -1,8 +1,8 @@
-package com.atguigu.security.config;
+package com.atyinhao.security.config;
 
-import com.atguigu.security.custom.CustomMd5PasswordEncoder;
-import com.atguigu.security.filter.TokenAuthenticationFilter;
-import com.atguigu.security.filter.TokenLoginFilter;
+import com.atyinhao.security.custom.CustomMd5PasswordEncoder;
+import com.atyinhao.security.filter.TokenAuthenticationFilter;
+import com.atyinhao.security.filter.TokenLoginFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,11 +1,11 @@
-package com.atguigu.auth.controller;
+package com.atyinhao.auth.controller;
 
-import com.atguigu.auth.service.SysRoleService;
-import com.atguigu.common.config.exception.GuiguException;
-import com.atguigu.common.result.Result;
-import com.atguigu.model.system.SysRole;
-import com.atguigu.vo.system.AssginRoleVo;
-import com.atguigu.vo.system.SysRoleQueryVo;
+import com.atyinhao.auth.service.SysRoleService;
+import com.atyinhao.common.config.exception.YinhaoException;
+import com.atyinhao.common.result.Result;
+import com.atyinhao.model.system.SysRole;
+import com.atyinhao.vo.system.AssginRoleVo;
+import com.atyinhao.vo.system.SysRoleQueryVo;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
@@ -67,7 +67,7 @@ public class SysRoleController {
             int i = 10/0;
         } catch (Exception e) {
             //抛出自定义异常
-            throw new GuiguException(20001,"执行了自定义异常处理..");
+            throw new YinhaoException(20001,"执行了自定义异常处理..");
         }
 
         return Result.ok(list);

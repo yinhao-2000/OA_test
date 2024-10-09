@@ -1,6 +1,6 @@
-package com.atguigu.process.mapper;
+package com.atyinhao.process.mapper;
 
-import com.atguigu.model.process.ProcessRecord;
+import com.atyinhao.model.process.ProcessRecord;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * 审批记录 Mapper 接口
  * </p>
  *
- * @author atguigu
+ * @author atyinhao
  * @since 2023-02-15
  */
 public interface OaProcessRecordMapper extends BaseMapper<ProcessRecord> {

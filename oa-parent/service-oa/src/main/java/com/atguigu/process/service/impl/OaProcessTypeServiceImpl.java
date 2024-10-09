@@ -1,10 +1,10 @@
-package com.atguigu.process.service.impl;
+package com.atyinhao.process.service.impl;
 
-import com.atguigu.model.process.ProcessTemplate;
-import com.atguigu.model.process.ProcessType;
-import com.atguigu.process.mapper.OaProcessTypeMapper;
-import com.atguigu.process.service.OaProcessTemplateService;
-import com.atguigu.process.service.OaProcessTypeService;
+import com.atyinhao.model.process.ProcessTemplate;
+import com.atyinhao.model.process.ProcessType;
+import com.atyinhao.process.mapper.OaProcessTypeMapper;
+import com.atyinhao.process.service.OaProcessTemplateService;
+import com.atyinhao.process.service.OaProcessTypeService;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +17,7 @@ import java.util.List;
  * 审批类型 服务实现类
  * </p>
  *
- * @author atguigu
+ * @author atyinhao
  * @since 2023-02-14
  */
 @Service

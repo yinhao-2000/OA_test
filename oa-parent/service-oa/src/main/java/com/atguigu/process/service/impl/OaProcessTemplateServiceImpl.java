@@ -1,11 +1,11 @@
-package com.atguigu.process.service.impl;
+package com.atyinhao.process.service.impl;
 
-import com.atguigu.model.process.ProcessTemplate;
-import com.atguigu.model.process.ProcessType;
-import com.atguigu.process.mapper.OaProcessTemplateMapper;
-import com.atguigu.process.service.OaProcessService;
-import com.atguigu.process.service.OaProcessTemplateService;
-import com.atguigu.process.service.OaProcessTypeService;
+import com.atyinhao.model.process.ProcessTemplate;
+import com.atyinhao.model.process.ProcessType;
+import com.atyinhao.process.mapper.OaProcessTemplateMapper;
+import com.atyinhao.process.service.OaProcessService;
+import com.atyinhao.process.service.OaProcessTemplateService;
+import com.atyinhao.process.service.OaProcessTypeService;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
@@ -26,7 +26,7 @@ import java.util.stream.Collectors;
  * 审批模板 服务实现类
  * </p>
  *
- * @author atguigu
+ * @author atyinhao
  * @since 2023-02-14
  */
 @Service

@@ -1,4 +1,4 @@
-package com.atguigu.auth.activiti;
+package com.atyinhao.auth.activiti;
 
 import org.springframework.stereotype.Component;
 

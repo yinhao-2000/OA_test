@@ -1,8 +1,8 @@
-package com.atguigu.auth;
+package com.atyinhao.auth;
 
-import com.atguigu.auth.mapper.SysRoleMapper;
-import com.atguigu.auth.service.SysRoleService;
-import com.atguigu.model.system.SysRole;
+import com.atyinhao.auth.mapper.SysRoleMapper;
+import com.atyinhao.auth.service.SysRoleService;
+import com.atyinhao.model.system.SysRole;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import org.junit.jupiter.api.Test;

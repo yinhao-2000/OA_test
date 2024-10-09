@@ -1,6 +1,6 @@
-package com.atguigu.process.service;
+package com.atyinhao.process.service;
 
-import com.atguigu.model.process.ProcessRecord;
+import com.atyinhao.model.process.ProcessRecord;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * 审批记录 服务类
  * </p>
  *
- * @author atguigu
+ * @author atyinhao
  * @since 2023-02-15
  */
 public interface OaProcessRecordService extends IService<ProcessRecord> {

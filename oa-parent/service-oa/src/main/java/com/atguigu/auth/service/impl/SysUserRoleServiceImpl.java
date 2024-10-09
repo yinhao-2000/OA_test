@@ -1,8 +1,8 @@
-package com.atguigu.auth.service.impl;
+package com.atyinhao.auth.service.impl;
 
-import com.atguigu.model.system.SysUserRole;
-import com.atguigu.auth.mapper.SysUserRoleMapper;
-import com.atguigu.auth.service.SysUserRoleService;
+import com.atyinhao.model.system.SysUserRole;
+import com.atyinhao.auth.mapper.SysUserRoleMapper;
+import com.atyinhao.auth.service.SysUserRoleService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
  * 用户角色 服务实现类
  * </p>
  *
- * @author atguigu
+ * @author atyinhao
  * @since 2023-02-02
  */
 @Service

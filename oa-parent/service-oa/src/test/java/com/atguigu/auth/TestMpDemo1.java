@@ -1,7 +1,7 @@
-package com.atguigu.auth;
+package com.atyinhao.auth;
 
-import com.atguigu.auth.mapper.SysRoleMapper;
-import com.atguigu.model.system.SysRole;
+import com.atyinhao.auth.mapper.SysRoleMapper;
+import com.atyinhao.model.system.SysRole;
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
@@ -46,7 +46,7 @@ public class TestMpDemo1 {
         //根据id查询
         SysRole role = mapper.selectById(10);
         //设置修改值
-        role.setRoleName("atguigu角色管理员");
+        role.setRoleName("atyinhao角色管理员");
         //调用方法实现最终修改
         int rows = mapper.updateById(role);
         System.out.println(rows);

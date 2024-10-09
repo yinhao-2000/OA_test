@@ -1,9 +1,9 @@
-package com.atguigu.wechat.controller;
+package com.atyinhao.wechat.controller;
 
 
-import com.atguigu.common.result.Result;
-import com.atguigu.vo.wechat.MenuVo;
-import com.atguigu.wechat.service.MenuService;
+import com.atyinhao.common.result.Result;
+import com.atyinhao.vo.wechat.MenuVo;
+import com.atyinhao.wechat.service.MenuService;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -19,7 +19,7 @@ import java.util.List;
  * 菜单 前端控制器
  * </p>
  *
- * @author atguigu
+ * @author atyinhao
  * @since 2023-02-16
  */
 @RestController

@@ -1,6 +1,6 @@
-package com.atguigu.security.custom;
+package com.atyinhao.security.custom;
 
-import com.atguigu.model.system.SysUser;
+import com.atyinhao.model.system.SysUser;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.User;
 

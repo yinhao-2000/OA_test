@@ -1,4 +1,4 @@
-package com.atguigu.vo.system;
+package com.atyinhao.vo.system;
 
 import lombok.Data;
 import io.swagger.annotations.ApiModelProperty;

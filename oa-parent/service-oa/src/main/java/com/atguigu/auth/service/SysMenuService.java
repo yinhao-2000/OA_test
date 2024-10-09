@@ -1,8 +1,8 @@
-package com.atguigu.auth.service;
+package com.atyinhao.auth.service;
 
-import com.atguigu.model.system.SysMenu;
-import com.atguigu.vo.system.AssginMenuVo;
-import com.atguigu.vo.system.RouterVo;
+import com.atyinhao.model.system.SysMenu;
+import com.atyinhao.vo.system.AssginMenuVo;
+import com.atyinhao.vo.system.RouterVo;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 import java.util.List;
@@ -12,7 +12,7 @@ import java.util.List;
  * 菜单表 服务类
  * </p>
  *
- * @author atguigu
+ * @author atyinhao
  * @since 2023-02-02
  */
 public interface SysMenuService extends IService<SysMenu> {

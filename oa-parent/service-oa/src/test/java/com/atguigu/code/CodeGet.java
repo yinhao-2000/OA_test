@@ -1,4 +1,4 @@
-package com.atguigu.code;
+package com.atyinhao.code;
 
 
 import com.baomidou.mybatisplus.annotation.DbType;
@@ -19,16 +19,16 @@ public class CodeGet {
         // 2、全局配置
         // 全局配置
         GlobalConfig gc = new GlobalConfig();
-        gc.setOutputDir("C:\\Users\\Administrator\\Desktop\\guigu-oa\\guigu-oa-parent\\service-oa"+"/src/main/java");
+        gc.setOutputDir("C:\\Users\\Administrator\\Desktop\\yinhao-oa\\yinhao-oa-parent\\service-oa"+"/src/main/java");
 
         gc.setServiceName("%sService");	//去掉Service接口的首字母I
-        gc.setAuthor("atguigu");
+        gc.setAuthor("atyinhao");
         gc.setOpen(false);
         mpg.setGlobalConfig(gc);
 
         // 3、数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
-        dsc.setUrl("jdbc:mysql://localhost:3306/guigu-oa?serverTimezone=GMT%2B8&useSSL=false");
+        dsc.setUrl("jdbc:mysql://localhost:3306/yinhao-oa?serverTimezone=GMT%2B8&useSSL=false");
         dsc.setDriverName("com.mysql.cj.jdbc.Driver");
         dsc.setUsername("root");
         dsc.setPassword("root");
@@ -37,7 +37,7 @@ public class CodeGet {
 
         // 4、包配置
         PackageConfig pc = new PackageConfig();
-        pc.setParent("com.atguigu");
+        pc.setParent("com.atyinhao");
         pc.setModuleName("wechat"); //模块名
         pc.setController("controller");
         pc.setService("service");

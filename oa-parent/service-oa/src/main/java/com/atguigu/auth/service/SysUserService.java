@@ -1,6 +1,6 @@
-package com.atguigu.auth.service;
+package com.atyinhao.auth.service;
 
-import com.atguigu.model.system.SysUser;
+import com.atyinhao.model.system.SysUser;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 import java.util.Map;
@@ -10,7 +10,7 @@ import java.util.Map;
  * 用户表 服务类
  * </p>
  *
- * @author atguigu
+ * @author atyinhao
  * @since 2023-02-02
  */
 public interface SysUserService extends IService<SysUser> {

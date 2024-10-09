@@ -1,4 +1,4 @@
-package com.atguigu.process.service;
+package com.atyinhao.process.service;
 
 public interface MessageService {
 

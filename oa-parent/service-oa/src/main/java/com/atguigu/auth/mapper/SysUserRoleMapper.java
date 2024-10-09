@@ -1,6 +1,6 @@
-package com.atguigu.auth.mapper;
+package com.atyinhao.auth.mapper;
 
-import com.atguigu.model.system.SysUserRole;
+import com.atyinhao.model.system.SysUserRole;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * 用户角色 Mapper 接口
  * </p>
  *
- * @author atguigu
+ * @author atyinhao
  * @since 2023-02-02
  */
 public interface SysUserRoleMapper extends BaseMapper<SysUserRole> {

@@ -1,4 +1,4 @@
-package com.atguigu.common.result;
+package com.atyinhao.common.result;
 
 import lombok.Data;
 

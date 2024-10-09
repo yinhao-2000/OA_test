@@ -1,4 +1,4 @@
-package com.atguigu.common.config.knife4j;
+package com.atyinhao.common.config.knife4j;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -43,7 +43,7 @@ public class Knife4jConfig {
                 .apiInfo(adminApiInfo())
                 .select()
                 //只显示admin路径下的页面
-                .apis(RequestHandlerSelectors.basePackage("com.atguigu"))
+                .apis(RequestHandlerSelectors.basePackage("com.atyinhao"))
                 .paths(PathSelectors.regex("/admin/.*"))
                 .build()
                 .globalOperationParameters(pars);
@@ -56,7 +56,7 @@ public class Knife4jConfig {
                 .title("后台管理系统-API文档")
                 .description("本文档描述了后台管理系统微服务接口定义")
                 .version("1.0")
-                .contact(new Contact("atguigu", "http://atguigu.com", "atguigu@qq.com"))
+                .contact(new Contact("atyinhao", "http://atyinhao.com", "atyinhao@qq.com"))
                 .build();
     }
 

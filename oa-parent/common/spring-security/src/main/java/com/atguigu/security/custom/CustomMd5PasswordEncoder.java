@@ -1,6 +1,6 @@
-package com.atguigu.security.custom;
+package com.atyinhao.security.custom;
 
-import com.atguigu.common.utils.MD5;
+import com.atyinhao.common.utils.MD5;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;

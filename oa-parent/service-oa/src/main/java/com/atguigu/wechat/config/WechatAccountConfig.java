@@ -1,4 +1,4 @@
-package com.atguigu.wechat.config;
+package com.atyinhao.wechat.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

@@ -1,6 +1,6 @@
-package com.atguigu.auth.utils;
+package com.atyinhao.auth.utils;
 
-import com.atguigu.model.system.SysMenu;
+import com.atyinhao.model.system.SysMenu;
 
 import java.util.ArrayList;
 import java.util.List;
